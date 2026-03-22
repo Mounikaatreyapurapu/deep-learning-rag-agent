@@ -49,3 +49,7 @@ logs/
 
 # Streamlit
 .streamlit/secrets.toml
+# Ignore local runtime + vector DB + raw data
+vectorstore/
+data/
+.env
